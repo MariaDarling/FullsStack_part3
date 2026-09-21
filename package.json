@@ -6,13 +6,14 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "morgan": "^1.12.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
